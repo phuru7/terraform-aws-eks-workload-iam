@@ -1,0 +1,63 @@
+# ── Terraform State ──────────────────────────────────────────
+*.tfstate
+*.tfstate.*
+
+# ── Local Terraform Directories ──────────────────────────────
+**/.terraform/*
+
+# ── Override Files (local use only) ──────────────────────────
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# !example_override.tf
+
+# ── Plan Output ───────────────────────────────────────────────
+*.tfplan
+*tfplan*
+
+# ── CLI Configuration ────────────────────────────────────────
+.terraformrc
+terraform.rc
+
+# ── Crash Logs ────────────────────────────────────────────────
+crash.log
+crash.*.log
+
+# ── Secrets ───────────────────────────────────────────────────
+*.pem
+*.key
+.env
+.env.*
+
+# ── Backups / Temp Files ─────────────────────────────────────
+*.backup
+*.bak
+*.tmp
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Windows ───────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ── Linux ─────────────────────────────────────────────────────
+*~
+.directory
+.Trash-*
+
+# ── Editors / IDEs ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
